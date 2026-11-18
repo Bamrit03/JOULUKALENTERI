@@ -30,9 +30,11 @@ const message = document.getElementById("message");
 
 doors.forEach((door) => {
     door.addEventListener("click", () => {
-        const number = door.textContent;
+        const number = door.textContent.trim();
 
         door.classList.add("open");
         message.textContent = tasks[number];
+
+        door.textContent = "🎁";
     });
 });
