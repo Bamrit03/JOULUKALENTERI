@@ -1,9 +1,21 @@
 body {
-    background-color: lightblue;
     text-align: center;
     font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
 }
 
-h1 {
-    color: darkred;
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    gap: 10px;
+    justify-content: center;
+}
+
+.door {
+    background-color: darkred;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
 }
