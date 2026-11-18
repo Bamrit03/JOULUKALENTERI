@@ -8,7 +8,7 @@ const tasks = {
     7: "Siivoa työpöytäsi 🧹",
     8: "Auta jotakuta 🤝",
     9: "Kuuntele joululaulu 🎵",
-    10: "Kirjoita kiitosviesti ✉️",
+    10: "Hei, olen Hung",
     11: "Lue kirjaa 10 minuuttia 📚",
     12: "Pidä pieni tauko ☕",
     13: "Venyttele 5 minuuttia 🤸",
