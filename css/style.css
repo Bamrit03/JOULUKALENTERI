@@ -1,4 +1,15 @@
 body{
+    body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+
+    background-image: url("../image/joulu.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
     font-family:Arial,sans-serif;
     text-align:center;
     background:#f4f4f4;
