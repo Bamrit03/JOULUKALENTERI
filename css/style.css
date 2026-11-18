@@ -1,6 +1,6 @@
 body{
-    text-align:center;
     font-family:Arial,sans-serif;
+    text-align:center;
     background:#f4f4f4;
 }
 
@@ -13,15 +13,17 @@ h1{
     grid-template-columns:repeat(6,100px);
     gap:10px;
     justify-content:center;
+    margin-top:20px;
 }
 
 .door{
     background:darkred;
     color:white;
+    font-size:24px;
     padding:30px;
     border-radius:10px;
     cursor:pointer;
-    font-size:20px;
+    transition:0.3s;
 }
 
 .door:hover{
@@ -33,7 +35,7 @@ h1{
 }
 
 #message{
-    margin-top:20px;
-    font-size:22px;
+    margin-top:30px;
+    font-size:24px;
     font-weight:bold;
 }
