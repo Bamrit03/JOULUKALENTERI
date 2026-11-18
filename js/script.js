@@ -1,36 +1,38 @@
-const tasks = [
-    "Tee yksi hyvä teko tänään ❤️",
-    "Hymyile kolmelle ihmiselle 😊",
-    "Soita ystävälle 📞",
-    "Syö yksi hedelmä 🍎",
-    "Käy kävelyllä 15 minuuttia 🚶",
-    "Juo enemmän vettä 💧",
-    "Siivoa työpöytäsi 🧹",
-    "Auta jotakuta 🤝",
-    "Kuuntele joululaulu 🎵",
-    "Kirjoita kiitosviesti ✉️",
-    "Lue 10 sivua kirjaa 📖",
-    "Pidä pieni tauko ☕",
-    "Venyttele 5 minuuttia 🤸",
-    "Kerro vitsi ystävälle 😆",
-    "Opettele uusi sana 📚",
-    "Tee päivän hyvä työ 👍",
-    "Katso jouluelokuva 🎬",
-    "Piirrä jotain jouluista 🎨",
-    "Leivo jotain hyvää 🍪",
-    "Käy ulkona hetkeksi 🌳",
-    "Tee lumienkeli ❄️",
-    "Kirjoita joulutoive 🎁",
-    "Kerro läheiselle että välität ❤️",
-    "Hyvää joulua! 🎅🎄"
-];
+const tasks = {
+    1: "Tee yksi hyvä teko tänään ❤️",
+    2: "Hymyile kolmelle ihmiselle 😊",
+    3: "Soita ystävälle 📞",
+    4: "Syö yksi hedelmä 🍎",
+    5: "Käy kävelyllä 🚶",
+    6: "Juo enemmän vettä 💧",
+    7: "Siivoa työpöytäsi 🧹",
+    8: "Auta jotakuta 🤝",
+    9: "Kuuntele joululaulu 🎵",
+    10: "Kirjoita kiitosviesti ✉️",
+    11: "Lue kirjaa 10 minuuttia 📚",
+    12: "Pidä pieni tauko ☕",
+    13: "Venyttele 5 minuuttia 🤸",
+    14: "Kerro vitsi 😄",
+    15: "Opettele uusi sana 📝",
+    16: "Tee päivän hyvä työ 👍",
+    17: "Katso jouluelokuva 🎬",
+    18: "Piirrä jotain jouluista 🎨",
+    19: "Leivo jotain hyvää 🍪",
+    20: "Käy ulkona 🌳",
+    21: "Tee lumienkeli ❄️",
+    22: "Kirjoita joulutoive 🎁",
+    23: "Kerro läheiselle että välität ❤️",
+    24: "Hyvää joulua! 🎅🎄"
+};
 
 const doors = document.querySelectorAll(".door");
 const message = document.getElementById("message");
 
-doors.forEach((door, index) => {
+doors.forEach((door) => {
     door.addEventListener("click", () => {
+        const number = door.textContent;
+
         door.classList.add("open");
-        message.textContent = tasks[index];
+        message.textContent = tasks[number];
     });
 });
