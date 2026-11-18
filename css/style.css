@@ -1,5 +1,4 @@
 body{
-    body{
     font-family: Arial, sans-serif;
     text-align: center;
     color: white;
@@ -8,45 +7,56 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     min-height: 100vh;
-}
-    font-family:Arial,sans-serif;
-    text-align:center;
-    background:#f4f4f4;
 }
 
 h1{
-    color:darkred;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px black;
 }
 
 .calendar{
-    display:grid;
-    grid-template-columns:repeat(6,100px);
-    gap:10px;
-    justify-content:center;
-    margin-top:20px;
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    gap: 15px;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 .door{
-    background:darkred;
-    color:white;
-    font-size:24px;
-    padding:30px;
-    border-radius:10px;
-    cursor:pointer;
-    transition:0.3s;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(139, 0, 0, 0.9);
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .door:hover{
-    background:red;
+    transform: scale(1.08);
+    background-color: red;
 }
 
 .open{
-    background:green;
+    background-color: green;
 }
 
 #message{
-    margin-top:30px;
-    font-size:24px;
-    font-weight:bold;
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
