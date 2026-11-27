@@ -1,5 +1,5 @@
 function tarkistaPulma() {
-  let vastaus = Number(document.getElementById("vastaus").value);
+  let vastaus = Number(document.getElementById("pulmaVastaus").value);
   let teksti = "";
 
   if (vastaus === 16) {
@@ -8,5 +8,5 @@ function tarkistaPulma() {
     teksti = "Väärä vastaus, kokeile uudestaan!";
   }
 
-  document.getElementById("tulos").textContent = teksti;
+  document.getElementById("pulmaTulos").textContent = teksti;
 }
