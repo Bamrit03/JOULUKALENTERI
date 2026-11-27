@@ -8,7 +8,7 @@ const tasks = {
     7: "Siivoa työpöytäsi 🧹",
     8: "Auta jotakuta 🤝",
     9: "Kuuntele joululaulu 🎵",
-    10: '<img src="image/nobel.jpg" alt="nobel" width="300"><br>Nobelin päivää, ja silloin jaetaan aina vuoden Nobel-palkinnot.',
+    10: '<img src="image/nobel.jpg" alt="nobel" width="500"><br>Nobelin päivää, ja silloin jaetaan aina vuoden Nobel-palkinnot.',
     11: "Lue kirjaa 10 minuuttia 📚",
     12: "Pidä pieni tauko ☕",
     13: "Venyttele 5 minuuttia 🤸",
@@ -20,7 +20,7 @@ const tasks = {
     19: "Leivo jotain hyvää 🍪",
     20: "Käy ulkona 🌳",
     21: "Tee lumienkeli ❄️",
-    22: '<img src="image/Talvipaivanseisaus.jpg" alt="Talvipäivänseisaus" width="300"><br>Talvipäivänseisaus on pohjoisella pallonpuoliskolla vuoden pimein päivä. Eli vuoden lyhin päivä ja pisin yö',
+    22: '<img src="image/Talvipaivanseisaus.jpg" alt="Talvipäivänseisaus" width="500"><br>Talvipäivänseisaus on pohjoisella pallonpuoliskolla vuoden pimein päivä. Eli vuoden lyhin päivä ja pisin yö',
     23: "Kerro läheiselle että välität ❤️",
     24: "Hyvää joulua! 🎅🎄"
 };
