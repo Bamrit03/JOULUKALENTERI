@@ -14,7 +14,7 @@ const tasks = {
     13: "Venyttele 5 minuuttia 🤸",
     14: "Kerro vitsi 😄",
     15: "Opettele uusi sana 📝",
-    16: 'Pulma: 4 × 4?<br><input type="text" id="pulmaVastaus" placeholder="vastaus"><button onclick="tarkistaPulma()">Tarkista</button><div id="pulmaTulos"></div>',
+    16: 'Pulma: 4 × 4?<br><input type="text" id="pulmaVastaus"><button onclick="tarkistaPulma()">Tarkista</button><div id="pulmaTulos"></div>',
     17: "Katso jouluelokuva 🎬",
     18: "Piirrä jotain jouluista 🎨",
     19: "Leivo jotain hyvää 🍪",
