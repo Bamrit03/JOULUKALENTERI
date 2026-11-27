@@ -20,7 +20,7 @@ const tasks = {
     19: "Leivo jotain hyvää 🍪",
     20: "Käy ulkona 🌳",
     21: "Tee lumienkeli ❄️",
-    22: "",
+    22: '<img src="image/Talvipaivanseisaus.jpg" alt="Talvipäivänseisaus" width="300"> Talvipäivänseisaus on pohjoisella pallonpuoliskolla vuoden pimein päivä. Eli vuoden lyhin päivä ja pisin yö',
     23: "Kerro läheiselle että välität ❤️",
     24: "Hyvää joulua! 🎅🎄"
 };
